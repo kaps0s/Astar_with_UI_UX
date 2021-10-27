@@ -10,14 +10,32 @@ namespace Astar_withUI
 {
     public class Utils
     {
+        public void SetUpStartEndNodes(Grid2D grid2D)
+        {
+            foreach (Node node in grid2D.GridNodes)
+            {
+                if (node.YLocation == grid2D.YEndLocation && node.XLocation == grid2D.XEndLocation)
+                {
+                    grid2D.EndNode = node;
+                    //Trace.WriteLine(grid2D.EndNode.XLocation.ToString() + " " + grid2D.EndNode.YLocation.ToString());
+                }
+                if (node.YLocation == grid2D.YStartLocation && node.XLocation == grid2D.XStartLocation)
+                {
+                    //Trace.WriteLine(startNode.XLocation.ToString() + " " + startNode.YLocation.ToString());
+                    grid2D.StartNode = node;
+                }
+            }
+        }
+
 
         //Sets all heuristic values to Node array
-        public void SetHeuristicValues(Node[,] nodes, int endXLocation, int endYLocation)
+        public void SetHeuristicValues(Grid2D grid2D)
         {
-            foreach (Node node in nodes)
+            foreach (Node node in grid2D.GridNodes)
             {
                 //Euclidean 
-                node.H = Math.Sqrt(Math.Pow(endXLocation - node.XLocation, 2) + Math.Pow(endYLocation - node.YLocation, 2));
+                //Trace.WriteLine(node);
+                node.H = Math.Sqrt(Math.Pow(grid2D.XEndLocation - node.XLocation, 2) + Math.Pow(grid2D.YEndLocation - node.YLocation, 2));
             }
         }
 
@@ -46,6 +64,7 @@ namespace Astar_withUI
 
             if (currentNode.YLocation != grid2D.Rows - 1)
             {
+                Trace.WriteLine(currentNode.YLocation.ToString() + " " + currentNode.XLocation.ToString());
                 //Adds bottom node
                 adjacentNodes.Add(grid2D.GridNodes[currentNode.XLocation, currentNode.YLocation + 1]);
 
@@ -131,14 +150,14 @@ namespace Astar_withUI
             {
                 if (nextNode.XLocation == XEndLocation && nextNode.YLocation == YEndLocation)
                 {
+                    //Trace.WriteLine(nextNode.XLocation.ToString() + " " + nextNode.YLocation.ToString());
                     return true;
                 }
                 else
                 {
                     // Note: Recurses back into Search(Node)
                     if (Search(grid2D, nextNode, XEndLocation, YEndLocation))
-                        Trace.WriteLine(nextNode.XLocation.ToString() + " " + nextNode.YLocation.ToString());
-                        //Trace.WriteLine("!!!!!!!!!!!!");
+                        //Trace.WriteLine(nextNode.XLocation.ToString() + " " + nextNode.YLocation.ToString());
                         return true;
                 }
             }
@@ -146,17 +165,18 @@ namespace Astar_withUI
         }
 
         //Starts to find the path from one node to another
-        public List<Node> FindPath(Grid2D grid2D, Node startNode, Node endNode, int XEndLocation, int YEndLocation)
+        public List<Node> FindPath(Grid2D grid2D, Node startNode, Node endNode)
         {
+
             List<Node> path = new List<Node>();
-            bool success = Search(grid2D, startNode, XEndLocation, YEndLocation);
+            bool success = Search(grid2D, startNode, grid2D.XEndLocation, grid2D.YEndLocation);
             if (success)
             {
-                Node node = endNode;
+                Node node = new Node();
+                node = endNode;
                 while (node.ParentNode != null)
                 {
                     //Trace.WriteLine(node);
-                    //MessageBox.Show("sss");
                     path.Add(node);
                     node = node.ParentNode;
                 }
