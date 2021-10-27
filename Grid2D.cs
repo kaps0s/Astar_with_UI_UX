@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -25,6 +26,7 @@ namespace Astar_withUI
             {
                 for (int j = 0; j < columns; j++)
                 {
+
                     Node node = new Node
                     {
                         XLocation = i,
@@ -34,6 +36,7 @@ namespace Astar_withUI
                         State = NodeState.Untested
                     };
                     GridNodes[i, j] = node;
+                    Trace.WriteLine("[" + i.ToString() + "]" + " [" + j.ToString() + "]");
                 }
             }
         }

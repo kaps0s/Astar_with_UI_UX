@@ -1,8 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Astar_withUI
 {
@@ -134,7 +136,9 @@ namespace Astar_withUI
                 else
                 {
                     // Note: Recurses back into Search(Node)
-                    if (Search(grid2D,nextNode, XEndLocation, YEndLocation)) 
+                    if (Search(grid2D, nextNode, XEndLocation, YEndLocation))
+                        Trace.WriteLine(nextNode.XLocation.ToString() + " " + nextNode.YLocation.ToString());
+                        //Trace.WriteLine("!!!!!!!!!!!!");
                         return true;
                 }
             }
@@ -151,6 +155,8 @@ namespace Astar_withUI
                 Node node = endNode;
                 while (node.ParentNode != null)
                 {
+                    //Trace.WriteLine(node);
+                    //MessageBox.Show("sss");
                     path.Add(node);
                     node = node.ParentNode;
                 }

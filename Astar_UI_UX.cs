@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -24,9 +25,9 @@ namespace Astar_withUI
             Grid2D grid2D = new Grid2D(5,5);
             Utils utils = new Utils();
             int XStartLocation = 0;
-            int YStartLocation = 0;
-            int XEndLocation = 5;
-            int YEndLocation = 5;
+            int YStartLocation = 4;
+            int XEndLocation = 4;
+            int YEndLocation = 4;
             Node endNode = new Node();
             Node startNode = new Node();
 
@@ -35,6 +36,8 @@ namespace Astar_withUI
                 if (node.YLocation == YEndLocation && node.XLocation == XEndLocation)
                 {
                     endNode = node;
+                    Trace.WriteLine(endNode.XLocation.ToString() + " " + endNode.YLocation.ToString());
+                    //MessageBox.Show("!!!!!!!!!!!");
                 }
                 if (node.YLocation == YStartLocation && node.XLocation == XStartLocation)
                 {
