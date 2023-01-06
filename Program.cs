@@ -16,7 +16,7 @@ namespace Astar_withUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Astar_UI_UX());
+            Application.Run(new Astar_UI_UX(false));
         }
     }
 }

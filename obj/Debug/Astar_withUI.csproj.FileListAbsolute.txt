@@ -11,10 +11,31 @@ D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\Astar_withUI\obj\Debug\Astar
 D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\bin\Debug\Astar_withUI.exe.config
 D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\bin\Debug\Astar_withUI.exe
 D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\bin\Debug\Astar_withUI.pdb
-D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.csproj.AssemblyReference.cache
 D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.Astar_UI_UX.resources
 D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.Properties.Resources.resources
 D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.csproj.GenerateResource.cache
 D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.csproj.CoreCompileInputs.cache
 D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.exe
 D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.pdb
+D:\gitProjects\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.csproj.AssemblyReference.cache
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\bin\Debug\Astar_withUI.exe.config
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\bin\Debug\Astar_withUI.exe
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\bin\Debug\Astar_withUI.pdb
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.csproj.AssemblyReference.cache
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.Astar_UI_UX.resources
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.Properties.Resources.resources
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.csproj.GenerateResource.cache
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.csproj.CoreCompileInputs.cache
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.exe
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\2021_Msc_AI_ES_Kapsogeorgos_Christos_MPPL20031\A_star_algorithm_withUI\Astar_withUI\obj\Debug\Astar_withUI.pdb
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\bin\Debug\Astar_withUI.exe.config
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\bin\Debug\Astar_withUI.exe
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\bin\Debug\Astar_withUI.pdb
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\obj\Debug\Astar_withUI.csproj.AssemblyReference.cache
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\obj\Debug\Astar_withUI.csproj.SuggestedBindingRedirects.cache
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\obj\Debug\Astar_withUI.Astar_UI_UX.resources
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\obj\Debug\Astar_withUI.Properties.Resources.resources
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\obj\Debug\Astar_withUI.csproj.GenerateResource.cache
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\obj\Debug\Astar_withUI.csproj.CoreCompileInputs.cache
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\obj\Debug\Astar_withUI.exe
+D:\ComputerScience\2st Semester\Τεχνητή Νοημοσύνη\Astar_withUI\obj\Debug\Astar_withUI.pdb
